@@ -1,0 +1,24 @@
+{
+  "name": "let-it-flow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd client && npm install && npm run build",
+    "start": "cd server && npm install && npx sequelize db:migrate && npx sequelize db:seed:all && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Juliyaone/Let-it-flow.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Juliyaone/Let-it-flow/issues"
+  },
+  "homepage": "https://github.com/Juliyaone/Let-it-flow#readme",
+  "engines": {
+    "node": "16.x"
+  }
+}
