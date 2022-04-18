@@ -7,13 +7,13 @@ cd client</br>
 npm install</br>
 npm start</br>
 
-Во втором:
-cd server
-npm install
-npx sequelize db:create
-npx sequelize db:migrate
-npx sequelize db:seed:all
-npm start
+Во втором:</br>
+cd server</br>
+npm install</br>
+npx sequelize db:create</br>
+npx sequelize db:migrate</br>
+npx sequelize db:seed:all</br>
+npm start</br>
 
 <div>
   <h3>Главная страница</h3>
